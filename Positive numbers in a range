@@ -1,0 +1,7 @@
+# Program to print positive terms from a list of numbers
+string = input("Enter a list of numbers separated by ',': ")
+list1 = string.split(',')
+for I in list1: 
+  I = int(I)
+  if I>=0:
+    print(I)
