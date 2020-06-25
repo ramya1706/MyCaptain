@@ -1,0 +1,19 @@
+# Assign elements to different lists:
+list1 = []
+list2 = []
+list1.append('python') #appends 'python' to the end of the list
+list2.insert(0,'mycaptain') #inserts 'mycaptain' at position 0
+list2.insert(1,'session')
+A = input("Enter a word:")
+list1.append(A)
+print(list1)
+print(list2)
+
+# Access elements from a tuple
+tup1 = ('mycaptain', 'ML', 'AI')
+print(tup1[2]) #prints 3rd element of the tuple (AI) 
+
+# Deleting elements from a dictionary
+dict = {'Name' : 'ABC', 'Age' : '10', 'Class' : 'Third'}
+del dict['Age'] # Deletes entry with key as 'Age' 
+dict.clear() # Deletes all entries in the dictionary
